@@ -6,4 +6,4 @@ class UserModel(models.Model):
     password = models.TextField()
     email = models.TextField()
     def __str__(self):
-        self.username
+        return self.username
